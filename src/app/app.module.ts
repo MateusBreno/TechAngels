@@ -3,10 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { VoluntarioInserirComponent } from './voluntario/voluntario-inserir/voluntario-inserir/voluntario-inserir.component';
+import { VoluntarioListaComponent } from './voluntario/voluntario-lista/voluntario-lista/voluntario-lista.component';
+import { CabecalhoComponent } from './cabecalho/cabecalho.component';
+import { VacinadoComponent } from './vacinado/vacinado.component';
+import { MapaComponent } from './mapa/mapa.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VoluntarioInserirComponent,
+    VoluntarioListaComponent,
+    CabecalhoComponent,
+    VacinadoComponent,
+    MapaComponent
   ],
   imports: [
     BrowserModule,
